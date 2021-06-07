@@ -22,8 +22,8 @@ Afterthat, type `pip3 install requirements.txt` into the Command Prompt / Termin
 ## 4. Run the script  
 Having done the above steps, you can run the script by typing `python3 spam.py` into the Command Prompt or Terminal where this directory at. If not working or an error showed up, just type `python spam.py`.  
   
-When the script load successful, you can choose spam mode and more  
+When the script load successful, you can choose spam mode and more, remember to place your cursor to the text box or the text area you want to spam. 
   
-Note: Spam speed (sec) is the time gap between 2 spam messages (in second), it required a float input (ex: 0.5)  
+**Note:** Spam speed (sec) is the time gap between 2 spam messages (in second), it required a float input (ex: 0.5)  
   
 Have fun.
