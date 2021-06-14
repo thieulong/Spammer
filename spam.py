@@ -69,11 +69,21 @@ def spam_clipboard():
         pyautogui.press("enter")
         sleep(time)
 
+# Click spam
+def spam_click():
+    limit = int(input("Enter click limit: "))
+    time = float(input("Enter click speed (sec): "))
+    get_ready()
+    for i in range(limit):
+        pyautogui.click()
+        sleep(time)
+
 print("\nChoose spam mode:")
 print("1. Spam on count")
 print("2. Spam message (random)")
 print("3. Spam message (ordered)")
-print("4. Spam clipboard\n")
+print("4. Spam clipboard")
+print("5. Spam click\n")
 
 option = int(input("Choice: "))
 
@@ -82,4 +92,5 @@ elif option == 2: spam_random()
 elif option == 3: spam_ordered()
 elif option == 4: spam_clipboard()
 elif option == 4: spam_clipboard()
+elif option == 5: spam_click()
 
